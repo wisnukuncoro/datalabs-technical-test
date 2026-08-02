@@ -1,8 +1,12 @@
 # E-Commerce Analytics Pipeline
 
-Disclaimer:
+**a Note to the DataLabs Data Engineering Team**
 
-**This project is AI-assisted (using Claude Code) as part of the development workflow.**
+Hello Mr. Bernard, Mr. Azhar Rifqi, Mr. Indra, and Mrs. Oktavia
+
+My name is Wisnu, and I'd like to share a brief note regarding the development of this project.
+
+**This project is AI-assisted (using Claude Code) as part of the development workflow.** I personally subscribe to this tools as an investment in my own learning and software engineering productivity. I use them regularly to assist with coding, exploring new technologies, reviewing implementations, learning best practices, and accelerating development.
 
 All architectural decisions, technology choices, code reviews, and final implementations are my own. I fully understand every part of the codebase and can explain, modify, or extend it without relying on AI.
 
