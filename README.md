@@ -1,5 +1,16 @@
 # E-Commerce Analytics Pipeline
 
+Disclaimer:
+
+**This project is AI-assisted (using Claude Code) as part of the development workflow.**
+
+All architectural decisions, technology choices, code reviews, and final implementations are my own. I fully understand every part of the codebase and can explain, modify, or extend it without relying on AI.
+
+I believe modern software engineering is about delivering reliable, maintainable, and scalable systems—not manually typing every line of code. AI is used as a productivity tool to accelerate implementation, while engineering principles, system design, and technical ownership remain the developer's responsibility.
+
+
+About the project
+
 A batch and streaming data engineering pipeline for e-commerce sales analytics:
 Python-generated sample data lands in a GCS bucket, Apache Airflow orchestrates
 loading it into BigQuery, and a dimensional (star schema) model in BigQuery
