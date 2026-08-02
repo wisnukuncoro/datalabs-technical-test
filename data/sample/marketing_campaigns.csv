@@ -1,0 +1,25 @@
+campaign_id,campaign_name,start_date,end_date,channel
+CAMP0001,Email - Jan 2022 Push,2022-01-14,2022-02-08,Email
+CAMP0002,Social Media - Mar 2022 Push,2022-03-05,2022-03-28,Social Media
+CAMP0003,Search Ads - May 2022 Push,2022-05-07,2022-06-06,Search Ads
+CAMP0004,Email - Jul 2022 Push,2022-07-08,2022-08-16,Email
+CAMP0005,Affiliate - Sep 2022 Push,2022-09-09,2022-10-18,Affiliate
+CAMP0006,Search Ads - Nov 2022 Push,2022-11-04,2022-12-02,Search Ads
+CAMP0007,Email - Dec 2022 Push,2022-12-29,2023-01-14,Email
+CAMP0008,Affiliate - Mar 2023 Push,2023-03-09,2023-04-16,Affiliate
+CAMP0009,SMS - May 2023 Push,2023-05-11,2023-05-28,SMS
+CAMP0010,Email - Jun 2023 Push,2023-06-25,2023-07-19,Email
+CAMP0011,SMS - Sep 2023 Push,2023-09-08,2023-10-19,SMS
+CAMP0012,Influencer - Nov 2023 Push,2023-11-02,2023-11-22,Influencer
+CAMP0013,Social Media - Dec 2023 Push,2023-12-23,2024-01-20,Social Media
+CAMP0014,Email - Mar 2024 Push,2024-03-06,2024-04-06,Email
+CAMP0015,Influencer - Apr 2024 Push,2024-04-22,2024-05-23,Influencer
+CAMP0016,Search Ads - Jun 2024 Push,2024-06-20,2024-07-15,Search Ads
+CAMP0017,Influencer - Aug 2024 Push,2024-08-18,2024-09-14,Influencer
+CAMP0018,Email - Oct 2024 Push,2024-10-21,2024-11-29,Email
+CAMP0019,Influencer - Dec 2024 Push,2024-12-25,2025-01-18,Influencer
+CAMP0020,SMS - Feb 2025 Push,2025-02-21,2025-03-31,SMS
+CAMP0021,SMS - Apr 2025 Push,2025-04-25,2025-06-02,SMS
+CAMP0022,Influencer - Jun 2025 Push,2025-06-18,2025-07-07,Influencer
+CAMP0023,Email - Aug 2025 Push,2025-08-24,2025-09-10,Email
+CAMP0024,Email - Oct 2025 Push,2025-10-25,2025-11-22,Email

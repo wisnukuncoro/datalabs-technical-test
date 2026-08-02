@@ -1,0 +1,7 @@
+Faker==22.0.0
+pandas==2.1.4
+numpy==1.26.3
+google-cloud-bigquery==3.17.1
+google-cloud-storage==2.14.0
+kafka-python==2.0.2
+python-dotenv==1.0.0

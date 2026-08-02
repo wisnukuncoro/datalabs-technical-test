@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Airflow
+airflow/logs/
+airflow/airflow.cfg
+airflow/airflow.db
+airflow/webserver_config.py
+airflow/plugins/__pycache__/
+.airflowignore
+
+# Local secrets / credentials
+.env
+*.json
+!diagrams/*.json
+gcp-service-account*.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Streaming local sink
+src/streaming/*.db
+
+# Task Instructions
+task.txt
