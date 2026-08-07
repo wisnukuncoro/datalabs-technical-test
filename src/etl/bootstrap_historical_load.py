@@ -9,7 +9,7 @@ script loads that historical snapshot directly into BigQuery and runs the
 same warehouse SQL used by the DAG, scoped to the full historical date range.
 
 Usage:
-    python -m src.etl.bootstrap_historical_load --project-id my-gcp-project
+    python -m src.etl.bootstrap_historical_load --project-id datalabs-technical-test
 """
 
 from __future__ import annotations

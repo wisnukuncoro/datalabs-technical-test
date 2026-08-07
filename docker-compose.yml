@@ -45,7 +45,7 @@ services:
           --username admin --password admin \
           --firstname Kuncoro --lastname Jati \
           --role Admin --email wisnujati29@gmail.com
-        airflow variables set gcp_project_id "$${GCP_PROJECT_ID:-ecommerce-analytics}"
+        airflow variables set gcp_project_id "$${GCP_PROJECT_ID:-datalabs-technical-test}"
         airflow variables set bq_location "$${BQ_LOCATION:-asia-southeast2}"
         airflow variables set gcs_landing_bucket "$${GCS_LANDING_BUCKET:-ecommerce-analytics-landing}"
 

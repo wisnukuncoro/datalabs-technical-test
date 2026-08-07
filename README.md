@@ -10,8 +10,6 @@ My name is Wisnu, and I'd like to share a brief note regarding the development o
 
 All architectural decisions, technology choices, code reviews, and final implementations are my own. I fully understand every part of the codebase and can explain, modify, or extend it without relying on AI.
 
-I believe modern software engineering is about delivering reliable, maintainable, and scalable systems—not manually typing every line of code. AI is used as a productivity tool to accelerate implementation, while engineering principles, system design, and technical ownership remain the developer's responsibility.
-
 
 About the project
 
@@ -139,6 +137,10 @@ are applied where they pay for themselves: `fact_sales`.
 
 ### Partitioning and clustering (BigQuery)
 
+![alt text](image.png)
+
+![alt text](image-1.png)
+
 - **Staging (`stg_*`):** ingestion-time partitioned (`PARTITION BY
   _PARTITIONDATE`) with a 30-day expiration. Staging is transient landing
   data, not the system of record, so it doesn't need to be retained
@@ -194,13 +196,13 @@ transformation SQL the DAG uses, scoped to the full historical date range:
 
 ```bash
 export GOOGLE_APPLICATION_CREDENTIALS=gcp/service-account.json
-python3 -m src.etl.bootstrap_historical_load --project-id YOUR_GCP_PROJECT --bq-location asia-southeast2
+python3 -m src.etl.bootstrap_historical_load --project-id datalabs-technical-test --bq-location asia-southeast2
 ```
 
 ### 3. Run the Airflow DAG (steady-state, daily)
 
 ```bash
-export GCP_PROJECT_ID=YOUR_GCP_PROJECT
+export GCP_PROJECT_ID=datalabs-technical-test
 export BQ_LOCATION=asia-southeast2
 export GCS_LANDING_BUCKET=your-landing-bucket
 docker compose up airflow-init

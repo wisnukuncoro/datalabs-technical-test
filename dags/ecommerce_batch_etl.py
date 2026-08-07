@@ -15,7 +15,7 @@ from airflow.providers.google.cloud.operators.bigquery import BigQueryCheckOpera
 from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
 from airflow.utils.task_group import TaskGroup
 
-PROJECT_ID = Variable.get("gcp_project_id", default_var="ecommerce-analytics")
+PROJECT_ID = Variable.get("gcp_project_id", default_var="datalabs-technical-test")
 BQ_LOCATION = Variable.get("bq_location", default_var="asia-southeast2")
 LANDING_BUCKET = Variable.get("gcs_landing_bucket", default_var="ecommerce-analytics-landing")
 

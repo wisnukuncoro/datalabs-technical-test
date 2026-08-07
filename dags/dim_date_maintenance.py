@@ -14,7 +14,7 @@ from airflow.decorators import dag
 from airflow.models import Variable
 from airflow.providers.google.cloud.operators.bigquery import BigQueryInsertJobOperator
 
-PROJECT_ID = Variable.get("gcp_project_id", default_var="ecommerce-analytics")
+PROJECT_ID = Variable.get("gcp_project_id", default_var="datalabs-technical-test")
 BQ_LOCATION = Variable.get("bq_location", default_var="asia-southeast2")
 DIM_DATE_START = Variable.get("dim_date_start", default_var="2022-01-01")
 DIM_DATE_END = Variable.get("dim_date_end", default_var="2030-12-31")
